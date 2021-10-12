@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	
+	margin: -20px 0 50px;
+}
+
+.main{
+    background-color: #FFFFFF;
+    width: 40%;
+    height: 68vh;
+    margin: 120px auto;
+    box-shadow: 0  0px  12px;
+}
+
+img{
+     width: 90px;
+    height: 90px;
+   margin-left: 44%;
+    margin-top: 10px
+}
+
+.head h2{
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.head span{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    
+}
+input{
+    background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 10px 0;
+	width: 40%;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    margin-bottom: 24px
+
+}
+
+
+.btn{
+    border: 2px solid #23456789;
+    width: 165px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 20px;
+     margin-left: 37%;
+    margin-bottom: 20px
+    cursor:pointer;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    background-color: #528BC6;
+    color: white;
+    cursor: pointer;
+}
+
+.msg{
+    text-align: center
+}
+
+@media screen and (max-width: 600px) {
+    .main{
+          width:85%; 
+        height: 70vh;
+    }
+    
+    .btn{
+        margin-left: 34%;
+    }
+    
+    .head h2{
+        margin-left: 30px;
+    }
+    
+    .head span{
+        margin-left: 30px;
+        color: grey;
+    }
+    
+}
